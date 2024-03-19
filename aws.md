@@ -195,6 +195,7 @@ Once created, ssh into the ec2 instance.
 
 Next, we run the following commands, I did so manually.
 
+``` 
 # run an update
 sudo apt update -y
 
@@ -236,6 +237,7 @@ sudo systemctl enable mongod
 # check mongod status
 sudo systemctl status mongod
 
+``` 
 
 Once inputted all commands should get the below:
 
