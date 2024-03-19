@@ -1,6 +1,19 @@
 #  Deploy the sparta app on AWS
 
+- [Deploy the sparta app on AWS](#deploy-the-sparta-app-on-aws)
+  - [EC2](#ec2)
+- [Creating an Instance](#creating-an-instance)
+- [1. ssh in](#1-ssh-in)
+- [Manually getting app working](#manually-getting-app-working)
+  - [Updates and Upgrades](#updates-and-upgrades)
+  - [Update config file](#update-config-file)
+  - [Running rest of commands](#running-rest-of-commands)
+- [Automated - not currently working](#automated---not-currently-working)
+- [2 tier deployment](#2-tier-deployment)
+- [Connect with the app](#connect-with-the-app)
 
+
+## EC2
 The service to create VM's on AWS is called Elastic Compute Cloud (EC2), they are scalable (hence elastic)
 
 #  Creating an Instance
