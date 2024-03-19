@@ -250,8 +250,9 @@ Once inputted all commands should get the below:
 
 Now, it is time to connect the two. In a fresh terminal ssh into the app vm(its likely you already have it up and running, if not get app running first)
 
-In app vm run the following:
+In app vm run the following, I did so manually. :
 
+``` 
 #!/bin/bash
 # contrary to what we did before, I was advised to put public ip
 export DB_HOST=mongodb://3.254.50.234:27017/posts
@@ -265,6 +266,8 @@ pm2 kill
 npm install
 #start processes
 pm2 start app.js
+
+``` 
 
 
 You should now see this command below, to note that you connected, the db has seeded and now the db is closed.<br>
