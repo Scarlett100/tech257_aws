@@ -254,16 +254,21 @@ In app vm run the following, I did so manually. :
 
 ``` 
 #!/bin/bash
-# contrary to what we did before, I was advised to put public ip
+# contrary to what we did before in azure task, I was advised to put public ip of db instead of private.
 export DB_HOST=mongodb://3.254.50.234:27017/posts
+
 # print host!
 printenv DB_HOST
+
 # get into right path
 cd tech257-sparta-app/app2
+
 # kill the process
 pm2 kill
+
 # run an npm install <-- make sure not sudo
 npm install
+
 #start processes
 pm2 start app.js
 
